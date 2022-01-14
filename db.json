@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Computer",
+      "price": 4300,
+      "quantity": 600,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Printer",
+      "price": 300,
+      "quantity": 100,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Smartphone",
+      "price": 1200,
+      "quantity": 100,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "Laptop",
+      "price": 6500,
+      "quantity": 50,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "Hard Drive",
+      "price": 400,
+      "quantity": 4000,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 8,
+      "name": "Headphone",
+      "price": 80,
+      "quantity": 1200,
+      "selected": false,
+      "available": false
+    },
+    {
+      "name": "Mouse",
+      "price": "25",
+      "quantity": "4200",
+      "selected": true,
+      "available": false,
+      "id": 9
+    },
+    {
+      "id": 12,
+      "name": "Samsung",
+      "price": "1500",
+      "quantity": "3",
+      "selected": true,
+      "available": true
+    },
+    {
+      "name": "Calculator",
+      "price": "18.5",
+      "quantity": "200",
+      "selected": true,
+      "available": true,
+      "id": 13
+    }
+  ]
+}
