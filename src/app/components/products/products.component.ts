@@ -4,6 +4,7 @@ import {Product} from "../../model/product.model";
 import {catchError, map, Observable, of, startWith} from "rxjs";
 import {ActionEvent, AppDataState, DataSateEnum, ProductActionsTypes} from "../../state/product.state";
 import {Router} from "@angular/router";
+import {EventDriverService} from "../../services/event-driver.service";
 
 @Component({
   selector: 'app-products',
@@ -15,9 +16,13 @@ export class ProductsComponent implements OnInit {
   // La déclaration de variable suivante de type DataStateEnum permet
   // d'utiliser cette variable dans le fichier app.component.html.
   readonly DataStateEnum = DataSateEnum;
-  constructor(private productsService:  ProductsService, private router:Router) { }
+  constructor(private productsService:  ProductsService, private router:Router,
+              private evetDriverService: EventDriverService) { }
 
   ngOnInit(): void {
+    this.evetDriverService.sourceEventSubject.subscribe((actionEvent: ActionEvent) => {
+      this.onActionEvent(actionEvent);
+    });
   }
 
   onGetAllProducts() {
