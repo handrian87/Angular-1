@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { ServiceTestService } from './service-test.service';
+import { EventDriverService } from './event-driver.service';
 
-describe('ServiceTestService', () => {
-  let service: ServiceTestService;
+describe('EventDriverService', () => {
+  let service: EventDriverService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(ServiceTestService);
+    service = TestBed.inject(EventDriverService);
   });
 
   it('should be created', () => {
