@@ -5,7 +5,7 @@
       "name": "Computer",
       "price": 4300,
       "quantity": 600,
-      "selected": false,
+      "selected": true,
       "available": true
     },
     {
@@ -39,6 +39,22 @@
       "selected": true,
       "available": false,
       "id": 9
+    },
+    {
+      "name": "Machine",
+      "price": "1400",
+      "quantity": "150",
+      "selected": true,
+      "available": true,
+      "id": 10
+    },
+    {
+      "name": "Pen",
+      "price": "2.50",
+      "quantity": "1200",
+      "selected": true,
+      "available": false,
+      "id": 11
     }
   ]
 }

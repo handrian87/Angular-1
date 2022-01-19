@@ -9,9 +9,10 @@ export class EventDriverService {
   // Comme on va publier des évènements de type ActionEvent dans le Subject,
   // on va mettre ActionEvent dans '<>' dans Subject
   sourceEventSubject: Subject<ActionEvent> = new Subject<ActionEvent>();
-
-  // Création d'un Observable:
   sourceEventSubjectObservable = this.sourceEventSubject.asObservable();
+
+  sourceEventSubject2: Subject<ActionEvent> = new Subject<ActionEvent>();
+  sourceEventSubjectObservable2 = this.sourceEventSubject.asObservable();
 
   // Création d'une méthode pour publier un évènement:
   // À chaque qu'on appelle cette méthode, on va publier un évènement vers le sujet

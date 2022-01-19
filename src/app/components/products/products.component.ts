@@ -112,6 +112,7 @@ export class ProductsComponent implements OnInit {
         case ProductActionsTypes.EDIT_PRODUCT:
           this.onUpdate($event.payload);
           break;
+
       }
   }
 }
