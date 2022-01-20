@@ -10,4 +10,4 @@
 
 ## Case 2 : Using Publish/Subscribe/Subject -- On publish_subscribe
 ### Same project as Case 1:
-
+![](Angular-1/src/images/Subject_ang.png)
