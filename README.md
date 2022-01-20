@@ -8,6 +8,6 @@
 * using @input
 * using crud operation and some logic for manipulating data
 
-## Case 2 : Using Publish/Subscribe/Subject -- On 
+## Case 2 : Using Publish/Subscribe/Subject -- On publish_subscribe
 ### Same project as Case 1:
 
