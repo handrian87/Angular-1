@@ -1,4 +1,4 @@
-# Testing Angular 
+# Angular Project:
 
 
 ## Case 1 : Without using Publish/ Subscribe -- On master
